@@ -1,0 +1,23 @@
+{
+  "name": "functional_purity_pattern",
+  "version": "1.0.0",
+  "description": "A compendium of functional purity examples and how they blend with unit testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap ./tests/**/*.js"
+  },
+  "keywords": [
+    "functional",
+    "learning",
+    "unit-testing"
+  ],
+  "author": "Fulton Byrne <fulton.byrne@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.3.4",
+    "tap": "^14.2.0"
+  }
+}
